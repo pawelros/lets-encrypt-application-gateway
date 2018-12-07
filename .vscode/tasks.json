@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/lets-encrypt-application-gateway.csproj"
+                "${workspaceFolder}/src/LetsEncrypt.ApplicationGateway.ConsoleApp/LetsEncrypt.ApplicationGateway.ConsoleApp.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

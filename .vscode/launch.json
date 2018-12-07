@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/netcoreapp2.2/lets-encrypt-application-gateway.dll",
+            "program": "${workspaceFolder}/src/LetsEncrypt.ApplicationGateway.ConsoleApp/bin/Debug/netcoreapp2.2/LetsEncrypt.ApplicationGateway.ConsoleApp.dll",
             "args": [],
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/src/LetsEncrypt.ApplicationGateway.ConsoleApp",
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
