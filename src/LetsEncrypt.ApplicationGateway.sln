@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LetsEncrypt.ApplicationGateway.ConsoleApp", "LetsEncrypt.ApplicationGateway.ConsoleApp\LetsEncrypt.ApplicationGateway.ConsoleApp.csproj", "{802CD4D5-463B-4381-B993-E4C6045CBCF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6099E78E-BC6E-4BC6-9622-6CA1976DC49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CertbotHooks", "CertbotHooks", "{ADB6CECC-8E9F-4104-9B89-E531FF63C2D4}"
+	ProjectSection(SolutionItems) = preProject
+		CertbotHooks\deploy-to-azure-application-gateway.sh = CertbotHooks\deploy-to-azure-application-gateway.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802CD4D5-463B-4381-B993-E4C6045CBCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802CD4D5-463B-4381-B993-E4C6045CBCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802CD4D5-463B-4381-B993-E4C6045CBCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802CD4D5-463B-4381-B993-E4C6045CBCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADB6CECC-8E9F-4104-9B89-E531FF63C2D4} = {6099E78E-BC6E-4BC6-9622-6CA1976DC49D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B65CE27-EE68-42A2-86A0-87EF1B158A2C}
+	EndGlobalSection
+EndGlobal
